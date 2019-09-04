@@ -1,0 +1,36 @@
+a:hover{
+    font-size: 16pt;
+}
+body{
+    margin: 0;
+    font-family: 'Caesar Dressing', cursive;
+}
+h1{
+    margin: 0;
+}
+header{
+    background-image: url(../images/gloria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+nav{
+    align-items: center;
+    background-color: aquamarine;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+section img{
+    height: 250px;
+}
+section img:nth-child(3):hover{
+    height: 100%;
+    width: 100%;
+}
